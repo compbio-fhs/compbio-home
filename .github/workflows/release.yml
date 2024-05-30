@@ -1,0 +1,29 @@
+name: release
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      # This is how you use the ga-project-version action
+      - name: Get version of the project
+        id: project-version
+        uses: 'euberdeveloper/ga-project-version@main'
+        with:
+          package-manager: 'npm'
+
+      # In this step the exposed version is used as tag of a github release to publish
+      - name: Add release
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.ACTIONS }}"
+          # This is how you access the exposed version
+          automatic_release_tag: "${{ steps.project-version.outputs.version }}"
+          prerelease: 'false'
+          title: "${{ steps.project-version.outputs.version }}"
