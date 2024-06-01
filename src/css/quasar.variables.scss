@@ -11,8 +11,9 @@
 // It's highly recommended to change the default colors
 // to match your app's branding.
 // Tip: Use the "Theme Builder" on Quasar's documentation website.
+@import "rfs/scss";
 
-$primary   : #1976D2;
+$primary   : #002147;
 $secondary : #26A69A;
 $accent    : #9C27B0;
 
@@ -23,3 +24,46 @@ $positive  : #21BA45;
 $negative  : #C10015;
 $info      : #31CCEC;
 $warning   : #F2C037;
+$shadow-color: $primary;
+
+$stepColor: #E6F7FF50;
+
+
+.text-stepColor {
+  color: #E6F7FF50 !important;
+}
+.bg-stepColor {
+  background-color: #E6F7FF50 !important;
+}
+
+
+.font-h1, h1{
+  @include font-size(5rem);
+  line-height: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.font-h2, h2{
+  @include font-size(6rem);
+  line-height: 1em;
+}
+.font-h3, h3{
+  @include font-size(4rem);
+}
+.font-h4, h4{
+  @include font-size(3rem);
+}
+.font-h5, h5{
+  @include font-size(2rem);
+}
+.font-h6, h6{
+  @include font-size(1.5rem);
+}
+
+.q-stepper__tab--active{
+  background-color: #E6F7FF50 !important;
+}
+
+.bg-light-blue-1{
+  background-color: #E6F7FF50 !important; //option 2 more transparent
+}
