@@ -10,7 +10,7 @@ const people = {
   phdStudents: [
     {
       name: 'Richard Creswell',
-      image: '~/maleAvatar.png',
+      image: '~public/maleAvatar.png',
       affiliation: 'PhD student, Oxford',
       description: 'Working with Ben Lambert and David Gavaghan in Oxford on developing Bayesian methods for time series problems with applications including epidemiology.',
       page: false,
@@ -18,7 +18,7 @@ const people = {
     },
     {
       name: 'Joseph Shuttleworth',
-      image: '/maleAvatar.png',
+      image: 'public/maleAvatar.png',
       affiliation: 'PhD student, Nottingham',
       description: 'Working with Gary Mirams and Simon Preston in Nottingham on optimising experiments for building ion channel models.',
       page: false,
@@ -26,7 +26,7 @@ const people = {
     },
     {
       name: 'Hui Jia Farm',
-      image: 'maleAvatar.png',
+      image: '/public/maleAvatar.png',
       affiliation: 'PhD student, Oxford',
       description: 'Working with Michael Clerx in Nottingham, Fergus Cooper, David Gavaghan in Oxford, and Hoffmann-La Roche Safety Pharmacology group in Basel, Switzerland to examine drug binding effects to ion channels.',
       page: false,
@@ -44,7 +44,7 @@ const people = {
     },
     {
       name: 'Owen Hailong Chen',
-      image: '/maleAvatar.png',
+      image: '~public/maleAvatar.png',
       affiliation: 'RA, Macau',
       description: 'Developing the back end of the virtual patch clamp.',
       page: false,
@@ -54,7 +54,7 @@ const people = {
   currentMasterStudents: [
     {
       name: 'Jintai Du',
-      image: '/maleAvatar.png',
+      image: '~/public/maleAvatar.png',
       affiliation: 'MSc student, Macau',
       description: 'Data Science in Precision Medicine',
       page: false,
