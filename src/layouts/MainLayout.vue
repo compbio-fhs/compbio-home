@@ -12,21 +12,27 @@
 </template>
 
 <script>
-import {defineComponent, onMounted} from 'vue';
-import LandHeader from "components/LandHeader.vue";
+import { defineComponent, onMounted } from 'vue';
+import LandHeader from 'components/LandHeader.vue';
 
 
 export default defineComponent({
   name: 'MainLayout', components: {
-    LandHeader
+    LandHeader,
   },
   data() {
     return {
-      drawerLeft: true
-    }
+      drawerLeft: true,
+    };
   },
   setup() {
-    return {}
+    return {};
   },
 });
 </script>
+
+<style lang="scss">
+html {
+  background-color: $primary;
+}
+</style>

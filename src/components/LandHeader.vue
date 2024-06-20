@@ -11,14 +11,29 @@
       <div>
       </div>
       <div class="flex items-end gt-sm q-mr-lg">
+        <q-btn flat to="/people"  label="People"/>
+        <q-btn flat to="/publications" label="Publications"/>
         <q-btn flat to="/vpatch" target="_blank" :label="$t('vpatch')"/>
         <q-btn flat  to="/github" target="_blank" :label="$t('github')"/>
-        <q-btn flat  to="/contact" target="_blank" :label="$t('contact')"/>
+        <q-btn flat  to="/chonloklei" target="_blank" :label="$t('contact')"/>
       </div>
 
       <div class="lt-md">
         <q-btn-dropdown dropdown-icon="change_history">
           <q-list class="bg-primary text-white">
+
+            <q-item clickable v-close-popup to="/people">
+              <q-item-section>
+                <q-item-label>People</q-item-label>
+              </q-item-section>
+            </q-item>
+
+            <q-item clickable v-close-popup to="/publications">
+              <q-item-section>
+                <q-item-label>Publications</q-item-label>
+              </q-item-section>
+            </q-item>
+
 
             <q-item clickable v-close-popup to="/vpatch">
               <q-item-section>

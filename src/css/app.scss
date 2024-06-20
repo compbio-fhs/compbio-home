@@ -2,6 +2,7 @@
 h1,h2,h3,h4,h5,h6, p{
   margin: 0;
   padding: 0;
+  color: rgb(255 255 255);
 }
 
 .margins{
@@ -12,3 +13,7 @@ a{
   text-decoration: none;
   color: inherit;
 }
+.bgSection {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+

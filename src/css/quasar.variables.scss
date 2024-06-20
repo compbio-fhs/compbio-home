@@ -14,7 +14,7 @@
 @import "rfs/scss";
 
 $primary   : #002147;
-$secondary : #26A69A;
+$secondary : #106292;
 $accent    : #9C27B0;
 
 $dark      : #1D1D1D;
@@ -26,7 +26,6 @@ $info      : #31CCEC;
 $warning   : #F2C037;
 $shadow-color: $primary;
 
-$stepColor: #E6F7FF50;
 
 
 .text-stepColor {
@@ -38,7 +37,7 @@ $stepColor: #E6F7FF50;
 
 
 .font-h1, h1{
-  @include font-size(5rem);
+  @include font-size(3.5rem);
   line-height: 1.2em;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -49,15 +48,21 @@ $stepColor: #E6F7FF50;
 }
 .font-h3, h3{
   @include font-size(4rem);
+  line-height: 1.2em;
 }
 .font-h4, h4{
   @include font-size(3rem);
 }
 .font-h5, h5{
   @include font-size(2rem);
+  line-height: 1.5em;
 }
 .font-h6, h6{
   @include font-size(1.5rem);
+  line-height: 1.8em;
+}
+.small-text{
+  @include font-size(1.0rem);
 }
 
 .q-stepper__tab--active{
