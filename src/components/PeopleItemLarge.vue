@@ -9,7 +9,7 @@ const props = defineProps({
   <div class="row q-card--bordered rounded-borders text-center bg-primary text-white">
       <div class="col-xs-12 col-md-6 row items-center">
         <img :src="props.people.image" alt="" class="rounded-borders" style="max-width: 50%; height: auto">
-        <q-img :src="props.people.image" alt="" class="rounded-borders" style="max-width: 50%; height: auto">
+        <q-img :src="props.people.image" alt="" class="rounded-borders" style="max-width: 50%; height: auto"/>
       </div>
       <div class="col-xs-12 col-md-6 q-py-md justify-evenly column">
         <div>
