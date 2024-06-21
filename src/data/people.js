@@ -10,7 +10,7 @@ const people = {
   phdStudents: [
     {
       name: 'Richard Creswell',
-      image: '~public/maleAvatar.png',
+      image: '~/maleAvatar.png',
       affiliation: 'PhD student, Oxford',
       description: 'Working with Ben Lambert and David Gavaghan in Oxford on developing Bayesian methods for time series problems with applications including epidemiology.',
       page: false,
@@ -18,7 +18,7 @@ const people = {
     },
     {
       name: 'Joseph Shuttleworth',
-      image: 'public/maleAvatar.png',
+      image: '/maleAvatar.png',
       affiliation: 'PhD student, Nottingham',
       description: 'Working with Gary Mirams and Simon Preston in Nottingham on optimising experiments for building ion channel models.',
       page: false,
@@ -26,7 +26,7 @@ const people = {
     },
     {
       name: 'Hui Jia Farm',
-      image: '/public/maleAvatar.png',
+      image: 'maleAvatar.png',
       affiliation: 'PhD student, Oxford',
       description: 'Working with Michael Clerx in Nottingham, Fergus Cooper, David Gavaghan in Oxford, and Hoffmann-La Roche Safety Pharmacology group in Basel, Switzerland to examine drug binding effects to ion channels.',
       page: false,
