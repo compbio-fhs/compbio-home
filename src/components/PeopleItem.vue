@@ -7,9 +7,11 @@ const props = defineProps({
 <template>
   <div class="column col-xs-12 col-md-3 q-pa-sm">
     <div class="q-card--bordered rounded-borders text-center bg-primary text-white col-grow">
-      <q-img :src="props.people.image" v-if="props.people.image" alt="" class="rounded-borders" style="max-width: 100%; height: auto" />
-      <q-img src="~/assets/maleAvatar.png" v-else-if="props.people.avatar === 'maleAvatar'" alt="" class="rounded-borders" style="max-width: 100%; height: auto" />
-      <q-img src="~/assets/femaleAvatar.png" v-else-if="props.people.avatar === 'femaleAvatar'" alt="" class="rounded-borders" style="max-width: 100%; height: auto" />
+      <div class="row bg-white">
+        <q-img :src="props.people.image" v-if="props.people.image" alt="" class="rounded-borders" style="height: 100px" fit="scale-down" />
+        <q-img src="~/assets/maleAvatar.png" v-else-if="props.people.avatar === 'maleAvatar'" alt="" class="rounded-borders" style="height: 100px" fit="scale-down" />
+        <q-img src="~/assets/femaleAvatar.png" v-else-if="props.people.avatar === 'femaleAvatar'" alt="" class="rounded-borders" style="height: 100px" fit="scale-down" />
+      </div>
       <div class="q-py-sm">
         <div class="text-h6">{{ props.people.name }}</div>
         <div class="text-subtitle2">{{ props.people.affiliation }}</div>
