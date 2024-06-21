@@ -1,7 +1,7 @@
 const people = {
   chonLokLei: {
     name: 'Chon Lok Lei',
-    image: new URL('~assets/chonLokLei.png', import.meta.url).href,
+    image: '~assets/chonLokLei.png',
     affiliation: 'PhD, Macau',
     description: 'Chon Lok Lei is an Assistant Professor in the Faculty of Health Sciences at the University of Macau. He holds a doctorate in Computational Biology from the University of Oxford, where he was a Clarendon Scholar.',
     page: true,
@@ -10,7 +10,7 @@ const people = {
   phdStudents: [
     {
       name: 'Richard Creswell',
-      image: new URL('~public/maleAvatar.png', import.meta.url).href,
+      image: '~public/maleAvatar.png',
       affiliation: 'PhD student, Oxford',
       description: 'Working with Ben Lambert and David Gavaghan in Oxford on developing Bayesian methods for time series problems with applications including epidemiology.',
       page: false,
@@ -18,7 +18,7 @@ const people = {
     },
     {
       name: 'Joseph Shuttleworth',
-      image: new URL('public/maleAvatar.png', import.meta.url).href,
+      image: 'public/maleAvatar.png',
       affiliation: 'PhD student, Nottingham',
       description: 'Working with Gary Mirams and Simon Preston in Nottingham on optimising experiments for building ion channel models.',
       page: false,
@@ -26,7 +26,7 @@ const people = {
     },
     {
       name: 'Hui Jia Farm',
-      image: new URL('/public/maleAvatar.png', import.meta.url).href,
+      image: '/public/maleAvatar.png',
       affiliation: 'PhD student, Oxford',
       description: 'Working with Michael Clerx in Nottingham, Fergus Cooper, David Gavaghan in Oxford, and Hoffmann-La Roche Safety Pharmacology group in Basel, Switzerland to examine drug binding effects to ion channels.',
       page: false,
@@ -36,7 +36,7 @@ const people = {
   currentResearchAssistants: [
     {
       name: 'Leandro Acosta',
-      image: new URL('~maleAvatar.png', import.meta.url).href,
+      image: '~maleAvatar.png',
       affiliation: 'RA, Macau',
       description: 'Developing the front end of virtual patch clamp.',
       page: false,
