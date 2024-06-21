@@ -2,14 +2,15 @@
 const props = defineProps({
   people: Object,
 });
+const picture = 'femaleAvatar.png'
 </script>
 
 <template>
   <div class="column col-xs-12 col-md-6 q-pa-sm">
-  <div class="row q-card--bordered rounded-borders text-center bg-primary text-white">
+    <div class="row q-card--bordered rounded-borders text-center bg-primary text-white">
       <div class="col-xs-12 col-md-6 row items-center">
-        <img :src="`/${props.people.image}`" alt="" class="rounded-borders" style="max-width: 50%; height: auto">
-        <q-img :src="`/${props.people.image}`" alt="" class="rounded-borders" style="max-width: 50%; height: auto"/>
+        <img :src="picture" alt="" class="rounded-borders" style="max-width: 50%; height: auto">
+        <q-img :src="picture" alt="" class="rounded-borders" style="max-width: 50%; height: auto"/>
       </div>
       <div class="col-xs-12 col-md-6 q-py-md justify-evenly column">
         <div>
@@ -20,10 +21,11 @@ const props = defineProps({
           <q-btn v-if="props.people.page" outline label="See More" color="white" class="q-mt-md " :href="props.people.pageUrl" target="_blank"/>
         </div>
       </div>
-  </div>
+    </div>
   </div>
 
 </template>
+
 
 <style scoped>
 
