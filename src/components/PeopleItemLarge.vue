@@ -2,8 +2,8 @@
 const props = defineProps({
   people: Object,
 });
-const picture = 'femaleAvatar.png'
-const picture2 = '/femaleAvatar.png'
+const picture = '~assets/femaleAvatar.png'
+const picture2 = '~assets/femaleAvatar.png'
 </script>
 
 <template>
