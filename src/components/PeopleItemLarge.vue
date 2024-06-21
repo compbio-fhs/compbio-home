@@ -3,14 +3,17 @@ const props = defineProps({
   people: Object,
 });
 const picture = 'femaleAvatar.png'
+const picture2 = '/femaleAvatar.png'
 </script>
 
 <template>
   <div class="column col-xs-12 col-md-6 q-pa-sm">
     <div class="row q-card--bordered rounded-borders text-center bg-primary text-white">
       <div class="col-xs-12 col-md-6 row items-center">
-        <img :src="picture" alt="" class="rounded-borders" style="max-width: 50%; height: auto">
-        <q-img :src="picture" alt="" class="rounded-borders" style="max-width: 50%; height: auto"/>
+        <img :src="picture" alt="" class="rounded-borders" style="max-width: 25%; height: auto">
+        <q-img :src="picture" alt="" class="rounded-borders" style="max-width: 25%; height: auto"/>
+        <img :src="picture2" alt="" class="rounded-borders" style="max-width: 25%; height: auto">
+        <q-img :src="picture2" alt="" class="rounded-borders" style="max-width: 25%; height: auto"/>
       </div>
       <div class="col-xs-12 col-md-6 q-py-md justify-evenly column">
         <div>
