@@ -7,7 +7,7 @@ const props = defineProps({
 <template>
   <div class="column col-xs-12 col-md-3 q-pa-sm">
     <div class="q-card--bordered rounded-borders text-center bg-primary text-white col-grow">
-      <q-img :src="new URL(props.people.image, import.meta.url).href" alt="" class="rounded-borders" style="max-width: 100%; height: auto"/>
+      <q-img :src="`/${props.people.image}`" class="rounded-borders" style="width: 100%; height: 200px;"/>
       <div class="q-py-sm">
         <div class="text-h6">{{ props.people.name }}</div>
         <div class="text-subtitle2">{{ props.people.affiliation }}</div>
