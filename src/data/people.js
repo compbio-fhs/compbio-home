@@ -1,7 +1,8 @@
 const people = {
   chonLokLei: {
     name: 'Chon Lok Lei',
-    image: '~assets/chonLokLei.png',
+    image: 'https://chonlei.github.io/images/Chon-Lok-Lei.jpg',
+    avatar: '',
     affiliation: 'PhD, Macau',
     description: 'Chon Lok Lei is an Assistant Professor in the Faculty of Health Sciences at the University of Macau. He holds a doctorate in Computational Biology from the University of Oxford, where he was a Clarendon Scholar.',
     page: true,
@@ -10,7 +11,8 @@ const people = {
   phdStudents: [
     {
       name: 'Richard Creswell',
-      image: '~/maleAvatar.png',
+      image: '',
+      avatar: 'maleAvatar',
       affiliation: 'PhD student, Oxford',
       description: 'Working with Ben Lambert and David Gavaghan in Oxford on developing Bayesian methods for time series problems with applications including epidemiology.',
       page: false,
@@ -18,7 +20,8 @@ const people = {
     },
     {
       name: 'Joseph Shuttleworth',
-      image: '/maleAvatar.png',
+      image: '',
+      avatar: 'maleAvatar',
       affiliation: 'PhD student, Nottingham',
       description: 'Working with Gary Mirams and Simon Preston in Nottingham on optimising experiments for building ion channel models.',
       page: false,
@@ -26,7 +29,8 @@ const people = {
     },
     {
       name: 'Hui Jia Farm',
-      image: 'maleAvatar.png',
+      image: '',
+      avatar: 'maleAvatar',
       affiliation: 'PhD student, Oxford',
       description: 'Working with Michael Clerx in Nottingham, Fergus Cooper, David Gavaghan in Oxford, and Hoffmann-La Roche Safety Pharmacology group in Basel, Switzerland to examine drug binding effects to ion channels.',
       page: false,
@@ -36,7 +40,8 @@ const people = {
   currentResearchAssistants: [
     {
       name: 'Leandro Acosta',
-      image: '~maleAvatar.png',
+      image: '',
+      avatar: 'maleAvatar',
       affiliation: 'RA, Macau',
       description: 'Developing the front end of virtual patch clamp.',
       page: false,
@@ -44,7 +49,8 @@ const people = {
     },
     {
       name: 'Owen Hailong Chen',
-      image: '~public/maleAvatar.png',
+      image: '',
+      avatar: 'maleAvatar',
       affiliation: 'RA, Macau',
       description: 'Developing the back end of the virtual patch clamp.',
       page: false,
@@ -54,7 +60,8 @@ const people = {
   currentMasterStudents: [
     {
       name: 'Jintai Du',
-      image: '~/public/maleAvatar.png',
+      image: '',
+      avatar: 'maleAvatar',
       affiliation: 'MSc student, Macau',
       description: 'Data Science in Precision Medicine',
       page: false,
@@ -62,7 +69,8 @@ const people = {
     },
     {
       name: 'Kirby Hou Him Chan',
-      image: '/maleAvatar.png',
+      image: '',
+      avatar: 'maleAvatar',
       affiliation: 'MSc student, Macau',
       description: 'Data Science in Precision Medicine',
       page: false,
@@ -70,7 +78,8 @@ const people = {
     },
     {
       name: 'Jingkai Zeng',
-      image: '/femaleAvatar.png',
+      image: '',
+      avatar: 'femaleAvatar',
       affiliation: 'MSc student, Macau',
       description: 'Data Science in Precision Medicine',
       page: false,
@@ -78,7 +87,8 @@ const people = {
     },
     {
       name: 'Jinzhi Huang',
-      image: '/femaleAvatar.png',
+      image: '',
+      avatar: 'femaleAvatar',
       affiliation: 'MSc student, Macau',
       description: 'Data Science in Precision Medicine',
       page: false,
@@ -86,7 +96,8 @@ const people = {
     },
     {
       name: 'Yuqi Wang',
-      image: '/femaleAvatar.png',
+      image: '',
+      avatar: 'femaleAvatar',
       affiliation: 'MSc student, Macau',
       description: 'Data Science in Precision Medicine',
       page: false,
@@ -96,7 +107,8 @@ const people = {
   pastProjectStudents: [
     {
       name: 'Ioan-Matei Vevera',
-      image: '/maleAvatar.png',
+      image: '',
+      avatar: 'maleAvatar',
       affiliation: 'BSc student, Oxford',
       description: '',
       page: false,
@@ -104,7 +116,8 @@ const people = {
     },
     {
       name: 'Thomas Foster',
-      image: '/maleAvatar.png',
+      image: '',
+      avatar: 'maleAvatar',
       affiliation: 'BSc student, Oxford',
       description: '',
       page: false,
@@ -112,7 +125,8 @@ const people = {
     },
     {
       name: 'Arnaud Massenet',
-      image: '/maleAvatar.png',
+      image: '',
+      avatar: 'maleAvatar',
       affiliation: 'MSc student, Oxford',
       description: '',
       page: false,
@@ -120,7 +134,8 @@ const people = {
     },
     {
       name: 'Daniel Fridman',
-      image: '/maleAvatar.png',
+      image: '',
+      avatar: 'maleAvatar',
       affiliation: 'Summer student, Yale',
       description: '',
       page: false,
