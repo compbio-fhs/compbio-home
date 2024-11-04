@@ -3,8 +3,7 @@ import Footer from 'components/Footer.vue';
 import data from '../data/publications.js';
 import PublicationItem from 'components/PublicationItem.vue';
 
-
-console.log(data);
+const sortedData = [...data].sort((a, b) => b.year - a.year);
 
 </script>
 
@@ -14,7 +13,7 @@ console.log(data);
       <h1>Our Publications</h1>
     </div>
     <div class="row margins">
-      <PublicationItem v-for="article in data" :key="article.title" :article="article"/>
+      <PublicationItem v-for="article in sortedData" :key="article.title" :article="article"/>
     </div>
     <Footer/>
   </q-page>
