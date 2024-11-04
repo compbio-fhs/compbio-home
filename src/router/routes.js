@@ -7,6 +7,7 @@ const routes = [
       {path: '', name: 'Home', component: () => import('pages/IndexPage.vue')},
       {path: 'publications', name: 'Publications', component: () => import('pages/Publications.vue')},
       {path: 'people', name: 'People', component: () => import('pages/People.vue')},
+      {path: 'people/:person', name: 'PersonProfile', component: () => import('pages/PersonProfile.vue')},
       {path: 'vpatch', name: 'Virtual Patch Clamp', component: () => import('pages/IndexPage.vue'),
         beforeEnter() {
           window.location.href = "https://compbio.fhs.um.edu.mo/virtualpatch/#/";

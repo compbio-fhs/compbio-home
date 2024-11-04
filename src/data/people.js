@@ -1,3 +1,4 @@
+
 const people = {
   chonLokLei: {
     name: 'Chon Lok Lei',
