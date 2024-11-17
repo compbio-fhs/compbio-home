@@ -15,7 +15,10 @@ const props = defineProps({
       <div class="q-py-sm">
         <div class="text-h6">{{ props.people.name }}</div>
         <div class="text-subtitle2">{{ props.people.affiliation }}</div>
-        <q-btn v-if="props.people.page" outline label="See More" color="white" class="q-mt-md col-6" :href="props.people.pageUrl" target="_blank"/>
+        <div class="row justify-center" v-if="props.people.pageUrl">
+          <q-btn v-if="props.people.internalPage" outline label="See More" color="white" class="q-mt-md col-6" :to="`/people/${props.people.pageUrl}`" />
+          <q-btn v-else outline label="See More" color="white" class="q-mt-md col-6" :href="props.people.pageUrl" target="_blank"/>
+        </div>
       </div>
     </div>
   </div>
