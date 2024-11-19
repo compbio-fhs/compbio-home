@@ -18,21 +18,29 @@ import people from '../data/people.js';
       </div>
         <h4 class="text-weight-bolder q-mt-lg q-mb-md text-uppercase text-primary q-px-md">Current PhD Students</h4>
       <div class="row ">
-        <PeopleItem v-for="people in people.phdStudents" :people="people"/>
+        <PeopleItem v-for="people in people.phdStudents" 
+                    :key="people.id" 
+                    :people="people"/>
       </div>
       <h4 class="text-weight-bolder q-mt-lg q-mb-md text-uppercase text-primary">Current Research Assistants</h4>
       <div class="row ">
-        <PeopleItem v-for="people in people.currentResearchAssistants" :people="people"/>
+        <PeopleItem v-for="people in people.currentResearchAssistants" 
+                    :key="people.id" 
+                    :people="people"/>
       </div>
 
       <h4 class="text-weight-bolder q-mt-lg q-mb-md text-uppercase text-primary">Current Master Students</h4>
       <div class="row ">
-        <PeopleItem v-for="people in people.currentMasterStudents" :people="people"/>
+        <PeopleItem v-for="people in people.currentMasterStudents" 
+                    :key="people.id" 
+                    :people="people"/>
       </div>
 
       <h4 class="text-weight-bolder q-mt-lg q-mb-md text-uppercase text-primary">Past Projects Students</h4>
       <div class="row ">
-        <PeopleItem v-for="people in people.pastProjectStudents" :people="people"/>
+        <PeopleItem v-for="people in people.pastProjectStudents" 
+                    :key="people.id" 
+                    :people="people"/>
       </div>
     </div>
 
