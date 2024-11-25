@@ -42,7 +42,7 @@ const people = {
       image: 'https://avatars.githubusercontent.com/u/123046910?s=400&v=4',
       avatar: 'maleAvatar',
       affiliation: 'PhD student, Macau',
-      description: 'BIOMEDICAL SCIENCES',
+      description: 'BIOMEDICAL SCIENCES, working on Alzheimers disease brain imaging image Processing and deep learning computational analysis ',
       internalPage: false,
       pageUrl: '',
     },

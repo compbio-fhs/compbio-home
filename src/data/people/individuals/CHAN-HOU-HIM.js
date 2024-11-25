@@ -1,5 +1,5 @@
 export default {
-    name: 'Kirby, Chan Hou Him',
+    name: 'Kirby Chan Hou Him',
     image: 'https://avatars.githubusercontent.com/u/123046910?s=400&v=4',
     title: 'PhD Student, Macau',
     role: 'Image Processing and deep learning computational analysis research',
