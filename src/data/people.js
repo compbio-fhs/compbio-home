@@ -37,6 +37,15 @@ const people = {
       internalPage: false,
       pageUrl: '',
     },
+    {
+      name: 'Kirby Hou Him Chan',
+      image: 'https://avatars.githubusercontent.com/u/123046910?s=400&v=4',
+      avatar: 'maleAvatar',
+      affiliation: 'PhD student, Macau',
+      description: 'BIOMEDICAL SCIENCES, working on Alzheimers disease brain imaging image Processing and deep learning computational analysis ',
+      internalPage: false,
+      pageUrl: '',
+    },
   ],
   currentResearchAssistants: [
     {
@@ -61,15 +70,6 @@ const people = {
   currentMasterStudents: [
     {
       name: 'Jintai Du',
-      image: '',
-      avatar: 'maleAvatar',
-      affiliation: 'MSc student, Macau',
-      description: 'Data Science in Precision Medicine',
-      internalPage: false,
-      pageUrl: '',
-    },
-    {
-      name: 'Kirby Hou Him Chan',
       image: '',
       avatar: 'maleAvatar',
       affiliation: 'MSc student, Macau',
