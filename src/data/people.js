@@ -1,4 +1,3 @@
-
 const people = {
   chonLokLei: {
     name: 'Chon Lok Lei',
@@ -146,3 +145,5 @@ const people = {
 };
 
 export default people;
+
+
