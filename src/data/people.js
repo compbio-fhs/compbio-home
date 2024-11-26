@@ -142,6 +142,15 @@ const people = {
       internalPage: false,
       pageUrl: '',
     },
+    {
+      name: 'Liu Jiacheng',
+      image: '',
+      avatar: 'MaleAvatar',
+      affiliation: 'PhD student, Macau',
+      description: 'Data Science in Precision Medicine',
+      internalPage: false,
+      pageUrl: '',
+    },
   ],
 };
 
