@@ -37,6 +37,15 @@ const people = {
       internalPage: false,
       pageUrl: '',
     },
+    {
+      name: 'Lucas Yuan Zhen',
+      image: 'https://avatars.githubusercontent.com/u/68571770?s=400&u=e333ae9e916cd79bcb7292b4fc2fa90c5488e116&v=4',
+      avatar: 'maleAvatar',
+      affiliation: 'PhD student, Macao SAR, China',
+      description: 'Artificial Intelligence and Human Disease',
+      internalPage: false,
+      pageUrl: '',
+    }
   ],
   currentResearchAssistants: [
     {
