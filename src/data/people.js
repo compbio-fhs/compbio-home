@@ -57,6 +57,15 @@ const people = {
       internalPage: false,
       pageUrl: '',
     },
+    {
+      name: 'Iris Yanzhen Chen',
+      image: '',
+      avatar: 'femaleAvatar',
+      affiliation: 'RA, Macau',
+      description: 'MD simulations on micelle formation and micelle - cancer cells interactions',
+      internalPage: true,
+      pageUrl: 'chen-yanzhen',
+    },
   ],
   currentMasterStudents: [
     {
