@@ -59,8 +59,8 @@ const people = {
     },
     {
       name: 'Iris Yanzhen Chen',
-      image: '',
-      avatar: 'femaleAvatar',
+      image: 'https://avatars.githubusercontent.com/u/103509137?v=4',
+      avatar: '',
       affiliation: 'RA, Macau',
       description: 'MD simulations on micelle formation and micelle - cancer cells interactions',
       internalPage: true,

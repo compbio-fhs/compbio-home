@@ -1,10 +1,10 @@
 export default {
     name: 'CHEN Yanzhen',
-    image: '/images/people/CHENYanzhen.jpg',
-    title: 'Miss',
+    image: 'https://avatars.githubusercontent.com/u/103509137?v=4',
+    title: 'PhD student, Macau',
     role: 'Research Assistant',
     personalPage: 'https://github.com/CHEN-Yanzhen-Iris',
-  
+
     education: [
       {
         degree: 'Master of Science in Data Science - Precision Medicine',
@@ -21,7 +21,7 @@ export default {
         period: '2016-2021'
       }
     ],
-  
+
     research: {
       interests: [
         'Machine Learning',
@@ -39,7 +39,7 @@ export default {
         }
       ]
     },
-  
+
     contact: {
       department: 'Faculty of Health Sciences',
       institution: 'University of Macau',
@@ -51,4 +51,3 @@ export default {
       email: 'yanzhenchen@um.edu.mo'
     }
   }
-  
