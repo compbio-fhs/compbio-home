@@ -42,8 +42,8 @@ const people = {
       avatar: 'maleAvatar',
       affiliation: 'PhD student, Macau',
       description: 'BIOMEDICAL SCIENCES, working on Alzheimers disease brain imaging image Processing and deep learning computational analysis',
-      internalPage: false,
-      pageUrl: '',
+      internalPage: true,
+      pageUrl: 'chan-houhim',
     },
   ],
   currentResearchAssistants: [

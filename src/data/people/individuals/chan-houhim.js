@@ -1,10 +1,10 @@
 export default {
     name: 'Kirby Chan Hou Him',
     image: 'https://avatars.githubusercontent.com/u/123046910?s=400&v=4',
-    title: 'PhD Student, Macau',
+    title: 'PhD Student',
     role: 'Image Processing and deep learning computational analysis research',
     personalPage: '',
-  
+
     education: [
       {
         degree: 'Master of Precision Medicine',
@@ -21,7 +21,7 @@ export default {
         period: '2016-2020'
       }
     ],
-  
+
     research: {
       interests: [
         'Alzheimers Disease analysis with bioimaging',
@@ -39,8 +39,8 @@ export default {
           doi: ''
         },
       ]
-    },  
-  
+    },
+
     contact: {
       department: 'Faculty of Health Sciences',
       institution: 'University of Macau',
@@ -50,7 +50,6 @@ export default {
       room: '3047',
       telephone: '8822 2952',
       fax: '',
-      email: 'yc48602@um.edu.mo'
+      email: 'yc48602'
     }
   }
-  
