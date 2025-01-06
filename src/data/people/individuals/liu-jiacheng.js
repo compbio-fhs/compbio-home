@@ -1,10 +1,10 @@
 export default {
     name: 'Liu Jiacheng',
-    image: '',
+    image: 'https://avatars.githubusercontent.com/u/91589621?v=4',
     title: 'PhD student, Macau',
     role: '',
     personalPage: '',
-  
+
     education: [
       {
         degree: 'Master',
@@ -21,17 +21,16 @@ export default {
         period: '2017-2019'
       }
     ],
-  
+
     research: {
       interests: [
         'Mathematics Modelling',
         'Markov Process',
       ],
       publications: [
-        '/'
       ]
     },
-  
+
     contact: {
       department: 'Faculty of Health Sciences',
       institution: 'University of Macau',
@@ -44,4 +43,3 @@ export default {
       email: 'yc48638@um.edu.mo'
     }
   }
-  
