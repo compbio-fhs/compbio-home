@@ -43,8 +43,8 @@ const people = {
       avatar: 'maleAvatar',
       affiliation: 'PhD student, Macao SAR, China',
       description: 'Artificial Intelligence and Human Disease',
-      internalPage: false,
-      pageUrl: '',
+      internalPage: true,
+      pageUrl: 'lucas-yuanzhen',
     }
   ],
   currentResearchAssistants: [

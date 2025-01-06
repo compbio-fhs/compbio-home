@@ -4,7 +4,7 @@ export default {
     title: 'PhD Student',
     role: '',
     personalPage: '',
-  
+
     education: [
       {
         degree: 'Master of Cell Biology',
@@ -21,7 +21,7 @@ export default {
         period: '2016-2020'
       }
     ],
-  
+
     research: {
       interests: [
         'Artificial Intelligence and Human Disease',
@@ -40,7 +40,7 @@ export default {
         }
       ]
     },
-  
+
     contact: {
         department: 'Faculty of Health Sciences',
         institution: 'University of Macau',
@@ -50,7 +50,6 @@ export default {
         room: '3047',
         telephone: '+86 15972916819',
         fax: '',
-        email: 'yc47658@connect.um.edu.mo'
+        email: 'yc47658'
     }
   }
-  
