@@ -1,21 +1,28 @@
 export default {
     name: 'Lucas Yuan Zhen',
-    image: 'https://avatars.githubusercontent.com/u/68571770?s=400&u=e333ae9e916cd79bcb7292b4fc2fa90c5488e116&v=4',
+    image: 'https://raw.githubusercontent.com/yuanzhen-lucas/pic_um__lab_web/refs/heads/master/lucas.jpeg',
     title: 'PhD Student',
     role: '',
-    personalPage: '',
+    personalPage: 'https://github.com/yuanzhen-lucas',
 
     education: [
       {
-        degree: 'Master of Cell Biology',
+        degree: 'Doctor of Philosophy',
+        field: 'Biomedical Sciences',
+        institution: 'University of Macau',
+        location: 'Macao SAR, China',
+        period: '2024-2028'
+      },
+      {
+        degree: 'Master of Science',
         field: 'Bioinformatic & Cell Fate Regulation',
         institution: 'Fujian Agriculture and Forestry University',
         location: 'Fujian, China',
         period: '2020-2023'
       },
       {
-        degree: 'Bachelor',
-        field: 'Basic Science of Medicine',
+        degree: 'Bachelor of Science',
+        field: 'Biology',
         institution: 'Hubei University',
         location: 'Hubei, China',
         period: '2016-2020'
@@ -27,7 +34,7 @@ export default {
         'Artificial Intelligence and Human Disease',
         'Statistical Analysis of Public Health',
         'Single-cell Technology Research',
-        'Cell Fate and Regeneration'
+        'Epigenetics in Cell Fate and Regeneration'
       ],
       publications: [
         {
