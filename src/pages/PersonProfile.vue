@@ -5,7 +5,7 @@
       <div class="col-12 col-md-3 flex justify-center">
         <q-card flat bordered class="profile-image-card">
           <q-img
-            src="https://placehold.co/150x200"
+            :src="person.image ? person.image : ''"
             :ratio="4/5"
             class="rounded-borders"
             style="width: 150px"
