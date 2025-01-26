@@ -37,6 +37,15 @@ const people = {
       internalPage: false,
       pageUrl: '',
     },
+    {
+      name: 'Lucas Yuan Zhen',
+      image: 'https://raw.githubusercontent.com/yuanzhen-lucas/pic_um__lab_web/refs/heads/master/lucas.jpeg',
+      avatar: 'maleAvatar',
+      affiliation: 'PhD student, Macao SAR, China',
+      description: 'Artificial Intelligence and Human Disease',
+      internalPage: true,
+      pageUrl: 'lucas-yuanzhen',
+    }
   ],
   currentResearchAssistants: [
     {
