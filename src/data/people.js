@@ -37,6 +37,15 @@ const people = {
       internalPage: false,
       pageUrl: '',
     },
+    {
+      name: 'Liu Jiacheng',
+      image: 'https://avatars.githubusercontent.com/u/91589621?v=4',
+      avatar: '',
+      affiliation: 'PhD student, Macau',
+      description: 'Data Science in Precision Medicine',
+      internalPage: true,
+      pageUrl: 'liu-jiacheng',
+    },
   ],
   currentResearchAssistants: [
     {
