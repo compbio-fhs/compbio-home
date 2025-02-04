@@ -39,7 +39,7 @@ const people = {
     },
     {
       name: 'Wenzheng Xu',
-      image: 'https://avatars.githubusercontent.com/u/189581679?v=4',
+      image: 'https://raw.githubusercontent.com/wenzheng-xu/img/main/img_wz.jpg',
       avatar: 'maleAvatar',
       affiliation: 'PhD student, Macau',
       description: '',

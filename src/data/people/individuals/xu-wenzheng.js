@@ -1,11 +1,18 @@
 export default {
   name: 'Wenzheng Xu',
-  image: 'https://avatars.githubusercontent.com/u/189581679?v=4',
+  image: 'https://raw.githubusercontent.com/wenzheng-xu/img/main/img_wz.jpg',
   title: 'PhD student',
   role: '',
   personalPage: '',
 
   education: [
+    {
+      degree: 'Doctor of Philosophy',
+      field: 'Biomedical Sciences',
+      institution: 'University of Macau',
+      location: 'Macau SAR, China',
+      period: '2022-present'
+    },
     {
       degree: 'Master of Science',
       field: 'Bioinformatics',
