@@ -7,6 +7,13 @@ export default {
 
     education: [
       {
+        degree: 'PhD student of Biomedical Sciences',
+        field: 'Bioinformatic & Computational Biology',
+        institution: 'University of Macau',
+        location: 'Macau',
+        period: '2024~'
+      },
+      {
         degree: 'Master of Precision Medicine',
         field: 'Bioinformatic & Computational Biology',
         institution: 'University of Macau',
