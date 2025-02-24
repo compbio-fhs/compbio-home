@@ -37,14 +37,26 @@ const people = {
       pageUrl: '',
     },
     {
+
       name: 'Kirby Hou Him Chan',
       image: 'https://avatars.githubusercontent.com/u/123046910?s=400&v=4',
       avatar: 'maleAvatar',
       affiliation: 'PhD student, Macau',
-      description: 'BIOMEDICAL SCIENCES, working on Alzheimers disease brain imaging image Processing and deep learning computational analysis',
+      description: 'BIOMEDICAL SCIENCES, working on image processing and deep learning computational analysis',
       internalPage: true,
       pageUrl: 'chan-houhim',
     },
+    
+    {
+      name: 'Lucas Yuan Zhen',
+      image: 'https://raw.githubusercontent.com/yuanzhen-lucas/pic_um__lab_web/refs/heads/master/lucas.jpeg',
+      avatar: 'maleAvatar',
+      affiliation: 'PhD student, Macao SAR, China',
+      description: 'Artificial Intelligence and Human Disease',
+      internalPage: true,
+      pageUrl: 'lucas-yuanzhen',
+    }
+
   ],
   currentResearchAssistants: [
     {

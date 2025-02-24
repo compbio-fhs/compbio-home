@@ -1,8 +1,8 @@
 {
   "name": "compbio-fhs-home",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A Quasar Project",
-  "productName": "Computational Biology - UM",
+  "productName": "Computational Biology",
   "author": "leandro-acosta <leandro.acosta292@hotmail.com>",
   "type": "module",
   "private": true,
