@@ -13,6 +13,11 @@ const routes = [
           window.location.href = "https://compbio.fhs.um.edu.mo/virtualpatch/#/";
         }
       },
+      {path: 'dlrpmds', name: 'DL RP MDS', component: () => import('pages/IndexPage.vue'),
+        beforeEnter() {
+          window.location.href = "https://compbio.fhs.um.edu.mo/dlrpmds/";
+        }
+      },
       {path: 'chonloklei', name: 'Contact', component: () => import('pages/IndexPage.vue'),
         beforeEnter() {
           window.location.href = "https://chonlei.github.io/";
