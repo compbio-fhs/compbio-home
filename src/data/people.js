@@ -1,4 +1,3 @@
-
 const people = {
   chonLokLei: {
     name: 'Chon Lok Lei',
@@ -38,6 +37,17 @@ const people = {
       pageUrl: '',
     },
     {
+
+      name: 'Kirby Hou Him Chan',
+      image: 'https://avatars.githubusercontent.com/u/123046910?s=400&v=4',
+      avatar: 'maleAvatar',
+      affiliation: 'PhD student, Macau',
+      description: 'BIOMEDICAL SCIENCES, working on image processing and deep learning computational analysis',
+      internalPage: true,
+      pageUrl: 'chan-houhim',
+    },
+    
+    {
       name: 'Lucas Yuan Zhen',
       image: 'https://raw.githubusercontent.com/yuanzhen-lucas/pic_um__lab_web/refs/heads/master/lucas.jpeg',
       avatar: 'maleAvatar',
@@ -46,6 +56,7 @@ const people = {
       internalPage: true,
       pageUrl: 'lucas-yuanzhen',
     }
+
   ],
   currentResearchAssistants: [
     {
@@ -70,15 +81,6 @@ const people = {
   currentMasterStudents: [
     {
       name: 'Jintai Du',
-      image: '',
-      avatar: 'maleAvatar',
-      affiliation: 'MSc student, Macau',
-      description: 'Data Science in Precision Medicine',
-      internalPage: false,
-      pageUrl: '',
-    },
-    {
-      name: 'Kirby Hou Him Chan',
       image: '',
       avatar: 'maleAvatar',
       affiliation: 'MSc student, Macau',
@@ -155,3 +157,5 @@ const people = {
 };
 
 export default people;
+
+
