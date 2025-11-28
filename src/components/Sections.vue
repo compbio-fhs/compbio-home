@@ -23,7 +23,7 @@
 
     <div class="row reverse full-width items-center bgSection q-pb-xs-md q-py-md-md">
       <q-img
-        src="~assets/team.png"
+        src="~assets/team_new.png"
         fit="contain"
         class="col-xs-12 col-md-5"
         style="max-height: 300px"
