@@ -22,7 +22,7 @@ jobs:
       - name: Add release
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          repo_token: "${{ secrets.ACTIONS }}"
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
           # This is how you access the exposed version
           automatic_release_tag: "${{ steps.project-version.outputs.version }}"
           prerelease: 'false'
