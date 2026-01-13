@@ -45,7 +45,16 @@ const people = {
       description: 'Artificial Intelligence and Human Disease',
       internalPage: true,
       pageUrl: 'lucas-yuanzhen',
-    }
+    },
+    {
+      name: 'Wenzheng Xu',
+      image: 'https://raw.githubusercontent.com/wenzheng-xu/img/main/img_wz.jpg',
+      avatar: 'maleAvatar',
+      affiliation: 'PhD student, Macau',
+      description: 'Modeling of high-throughput sequencing data',
+      internalPage: true,
+      pageUrl: 'xu-wenzheng',
+    },
   ],
   currentResearchAssistants: [
     {
